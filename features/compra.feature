@@ -1,8 +1,8 @@
 # language: pt
-Funcionalidade: Compra 
+Funcionalidade: Busca 
 
     
-  Cenário: Realizar uma compra
-  Dado que estou na tela inicial
-  Quando seleciono o produto
-  Então a compra deve ser realizada
+  Cenário: Realizar a busca de um filme
+  Dado que estou na home
+  Quando realizar a busca por um filme
+  Então devo visualizar o resultado da busca
